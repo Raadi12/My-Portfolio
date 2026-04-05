@@ -22,7 +22,7 @@ nav {
     align-items: center;
 }
 
-.logo { font-size: 1.2rem; font-weight: 900; letter-spacing: 2px; }
+.logo { font-size: 1.0rem; font-weight: 900; letter-spacing: 2px; }
 .logo span { color: #ff3e3e; }
 
 nav ul { display: flex; list-style: none; }
