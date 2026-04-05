@@ -330,7 +330,6 @@ footer { padding: 2rem; text-align: center; font-size: 0.8rem; color: #666; }
     nav ul {
     flex-direction: row; /* ឱ្យ Menu ចុះជួរឈរ */
     gap: 10px;
-    background: rgba(0,0,0,0.8); /* ថែមពណ៌ផ្ទៃក្រោយបន្តិចឱ្យងាយមើល */
     padding: 10px;
 }
 
