@@ -333,7 +333,4 @@ footer { padding: 2rem; text-align: center; font-size: 0.8rem; color: #666; }
     padding: 10px;
 }
 
-header {
-    position: relative; /* ប្ដូរពី fixed មក relative ដើម្បីកុំឱ្យវាហោះជាន់គេ */
-}
 }
