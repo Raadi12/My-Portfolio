@@ -298,14 +298,21 @@ footer { padding: 2rem; text-align: center; font-size: 0.8rem; color: #666; }
 
 /* សម្រាប់អេក្រង់ទូរស័ព្ទដែលមានទំហំតូចជាង 768px */
 @media (max-width: 768px) {
-    .hero-text h1 {
-        font-size: 2rem; /* បន្ថយទំហំអក្សរចំណងជើង */
-        line-height: 1.2;
+    .hero {
+        height: auto; /* ប្តូរពីកម្ពស់ថេរ មកជាឱ្យវារីកតាមអក្សរវិញ */
+        padding: 100px 20px; /* បន្ថែមចន្លោះលើក្រោម */
     }
     
+    .hero-text h1 {
+        font-size: 2.2rem !important;
+        line-height: 1.2; /* កុំឱ្យជួរអក្សរជិតគ្នាពេក */
+        margin-bottom: 15px;
+    }
+
     .hero-text p {
-        font-size: 1rem; /* បន្ថយទំហំអក្សររៀបរាប់ */
-        padding: 0 10px;
+        font-size: 1rem !important;
+        line-height: 1.6;
+        margin-top: 20px;
     }
 
     /* ប្រសិនបើមានអក្សរជាន់គ្នាខ្លាំង អ្នកអាចបន្ថែមការដកឃ្លា */
